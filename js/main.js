@@ -168,7 +168,6 @@ let app = new Vue({
 
         async orderAdd() {
             this.orders = await f('post', 'order', '', this.token);
-            this.basket = [];
             this.orders = [];
             this.orders = await f('get', 'order', '', this.token);
         },
