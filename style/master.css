@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+}
+
+.indentation{
+    margin-top: 50px;
+}
+
+.customColor
+{
+    background-color: #6f42c1;
+}
+
+.my-custom-btn
+{
+    border: solid 1px #6f42c1;
+}
+
+.name{cursor: pointer}
+
+.product-list{
+    /*padding: 25px;*/
+    /*border:  solid 1px #34393F;*/
+    margin-left: 15px;
+    margin-top: 15px;
+    transition: 1.25s;
+}
+
+.price
+{
+    margin-top: 12px;
+    font-size: 1.2em;
+    color : #59a6f6;
+}
+
+.product-list:hover
+{
+    cursor:pointer;
+    color:  #eaeaea;
+    background-color: #6f42c1;
+}
