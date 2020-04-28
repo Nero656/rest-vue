@@ -176,7 +176,6 @@ let app = new Vue({
             this.basket = await f('post', 'cart/' + id, '', this.token);
             this.basket = [];
             this.basket = await f('get', 'cart', '', this.token);
-            console.log(this.basket);
         },
 
         async basketDelete(id) {
